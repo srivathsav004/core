@@ -1,0 +1,9 @@
+# Echidna configuration for Price.sol testing with corpus directory
+# This saves interesting test cases for coverage analysis
+
+coverage: true
+corpusDir: "./corpus"
+testLimit: 50000
+shrinkLimit: 5000
+workdir: "echidna-out/"
+contract: "PriceFuzzTest"
