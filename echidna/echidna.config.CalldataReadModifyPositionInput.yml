@@ -1,0 +1,7 @@
+coverage: true
+corpusDir: "./corpus"
+testLimit: 100000
+seqLen: 100
+shrinkLimit: 5000
+timeout: 3600
+contract: CalldataReadModifyPositionInputTest
